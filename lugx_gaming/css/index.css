@@ -73,13 +73,13 @@ section > article + img {
   height: 400px;
 }
 
-div#search-games-area {
+div#search-games-area > form {
   display: flex;
   justify-content: center;
   margin: 48px 0;
 }
 
-div#search-games-area > input[type="search"] {
+div#search-games-area input[type="search"] {
   width: 100%;
   height: 60px;
   color: #474a48;
@@ -91,7 +91,7 @@ div#search-games-area > input[type="search"] {
   font-size: 1rem;
 }
 
-div#search-games-area > button {
+div#search-games-area button {
   background-color: #ee626b;
   color: #ffffff;
   font-size: 1.5rem;
@@ -113,7 +113,7 @@ footer {
   height: 10vh;
 }
 
-footer > p{
+footer > p {
   color: #0271f7;
   font-size: 0.75rem;
 }
