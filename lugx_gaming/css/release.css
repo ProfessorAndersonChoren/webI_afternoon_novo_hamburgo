@@ -61,3 +61,42 @@ div.card > img {
 div.card > h2 {
   margin-bottom: 1rem;
 }
+
+main > article:nth-child(2),
+main > section:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+main > article:nth-child(2) > h3 {
+  font-size: 1rem;
+  color: #ee626b;
+  text-transform: uppercase;
+}
+
+main > section:nth-child(3),
+main > section:nth-child(3) div {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > section:nth-child(3) > article > img {
+  height: 150px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+main > section:nth-child(3) > article h4 {
+  text-transform: uppercase;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: #ffffff;
+  background-color: #0271f7;
+}
