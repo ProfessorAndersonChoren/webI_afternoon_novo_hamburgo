@@ -40,3 +40,36 @@ a.action-button {
   padding: 1rem 2rem;
   border-radius: 2rem;
 }
+
+main > article > img {
+  height: 150px;
+  object-fit: cover; /* Ajustar o posicionamento da imagem*/
+}
+
+main {
+  margin: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2.25rem;
+}
+
+main > article {
+  max-width: 250px;
+}
+
+main > article > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+footer{
+  height: 10vh;
+  background-color: #0271f7;
+  color: #ffffff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
