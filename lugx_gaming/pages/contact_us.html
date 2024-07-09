@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lugx Gaming - Seus jogos</title>
+    <link rel="stylesheet" href="../css/contact_us.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../images/logo.png" alt="Logo do site" />
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="release.html">Lançamentos</a>
+        <a href="#">Seus jogos</a>
+        <a href="#">Fale conosco</a>
+        <a href="#" class="action-button">Sua conta</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Fale conosco</h1>
+        <h2>Diga olá!</h2>
+        <p>
+          Estamos sempre prontos para ouvir nossos jogadores e entusiastas de
+          jogos. Seja você um fã, um desenvolvedor ou alguém que acabou de
+          descobrir nosso site, seu feedback é muito importante para nós. Aqui,
+          você pode entrar em contato para tirar dúvidas, compartilhar suas
+          ideias, relatar problemas ou simplesmente conversar sobre o mundo dos
+          jogos.
+        </p>
+        <p>
+          Você pode nos contatar através do formulário abaixo ou em nossas redes
+          sociais. Nos esforçamos para responder a todas as mensagens o mais
+          rápido possível.
+        </p>
+        <form action="#" method="post">
+          <input
+            type="text"
+            placeholder="Como podemos chamá-lo?"
+            name="user_name"
+            required
+            pattern="[A-Z][a-z]{2,}"
+          />
+          <input
+            type="email"
+            placeholder="Qual seu email?"
+            name="user_email"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Qual seu nome de usuário no Discord?"
+            name="user_discord"
+            pattern="[a-z0-9]{3,}"
+          />
+          <input
+            type="text"
+            placeholder="Qual o assunto da sua mensagem"
+            name="subject"
+            required
+            pattern="[A-Z][a-z]{5,}"
+          />
+          <textarea
+            name="message"
+            placeholder="Então, como podemos ajudar?"
+            minlength="30"
+          ></textarea>
+          <button type="submit" class="action-button">Enviar mensagem</button>
+        </form>
+      </section>
+      <!-- Mapa do Google -->
+      <iframe
+        title="Mapa do Lugx Gaming"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.0880264868993!2d-51.133954525497614!3d-29.688227475104842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951943afbbaec1b1%3A0x8a6117646603d842!2sQI%20Faculdade%20%26%20Escola%20T%C3%A9cnica%20%7C%20Novo%20Hamburgo!5e0!3m2!1spt-BR!2sbr!4v1720546763341!5m2!1spt-BR!2sbr"
+        width="360"
+        height="360"
+        allowfullscreen="false"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </main>
+    <footer>
+      <p>Desenvolvido por Prof. Esp. Anderson Choren &copy; 2024</p>
+    </footer>
+  </body>
+</html>

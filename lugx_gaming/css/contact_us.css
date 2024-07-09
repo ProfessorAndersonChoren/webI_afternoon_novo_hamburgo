@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* Limpar os estilos do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body > header {
+  background-color: #0171f9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+nav {
+  display: flex;
+  column-gap: 2rem; /* 32px */
+  align-items: center;
+}
+
+nav > a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem; /* 16px */
+}
+
+.action-button {
+  background-color: #ee626b;
+  color: #ffffff;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  font-weight: 600; /* Semibold */
+  outline: none;
+  border: 0;
+}
+
+header > img {
+  height: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0271f7;
+  height: 10vh;
+}
+
+footer > p {
+  color: #ffffff;
+  font-size: 0.75rem;
+}
+/* Estilos padrões (Acima) */
+
+h1 {
+  font-size: 1rem;
+  color: #ee626b;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 0.75rem;
+  text-align: justify;
+}
+
+iframe {
+  border: 0;
+  border-radius: 1rem;
+}
+
+main {
+  display: flex;
+  padding: 4rem;
+}
+
+main > section {
+  padding-right: 3rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 1rem;
+}
+
+textarea {
+  grid-column: 1/3;
+  height: 6rem;
+}
+
+button[type="submit"] {
+  width: 200px;
+}
+
+input,
+textarea {
+  background-color: #f7f7f7;
+  color: #4d4d4d;
+  padding: 1rem;
+  font-size: 0.75rem;
+  border-radius: 1rem;
+  border: 0;
+  outline: none;
+}
