@@ -12,16 +12,13 @@ button.addEventListener("click", function () {
 
   if (selectFromCoinValue == "dollar" && selectToCoinValue == "real") {
     let result = convertCoin(inputValueContent, 5.62);
-    alert(`R$ ${result}`);
+    alert(`R$ ${result.toFixed(2)}`);
   } else if (selectFromCoinValue == "real" && selectToCoinValue == "dollar") {
-    let result = convertCoin(inputValueContent, 5.62, false);
-    alert(`USD$ ${result}`);
+    let result = convertCoin(inputValueContent, 0.18);
+    alert(`USD$ ${result.toFixed(2)}`);
   }
 });
 
-function convertCoin(value, rate, favorableRate = true) {
-  if (favorableRate) {
-    return value * rate;
-  }
-  return value / rate;
+function convertCoin(value, rate) {
+  return value * rate;
 }
